@@ -10,4 +10,7 @@ The goal of this project is to replicate this design provided by the Odin Projec
 ## Styles
 
 Fonts and colors were also provided by The Odin Project:
+
+(Required font is [Roboto](https://fonts.google.com/specimen/Roboto))
+
 ![Fonts and color pallet](./Images/02.png)
