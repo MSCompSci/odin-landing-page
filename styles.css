@@ -29,6 +29,13 @@ footer {
   color: #f9faf8;
 }
 
+footer {
+  text-align: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 2rem 0;
+}
+
 /* Hero */
 
 #top-bar {
@@ -89,7 +96,7 @@ footer {
 }
 
 .cta {
-  background-color: #3882f6;
+  background-color: var(--cta-background);
   color: #f9faf8;
 }
 
@@ -107,18 +114,33 @@ footer {
   padding: 4rem 0;
 }
 
-.quote {
+#quote {
   font-size: 36px;
   font-weight: 300; /* Light */
   font-style: italic;
   color: #1f2937;
+  background-color: #e5e7eb;
+}
+
+#quote-block {
+  width: 50rem;
+  margin: 0 auto;
+  padding: 8rem  0;
+}
+
+#cite {
+  font-size: 24px;
+  font-weight: 800; /* Light */
+  font-style: normal;
+  color: #1f2937;
+  text-align: right;
 }
 
 .info-block {
   height: 12rem;
   aspect-ratio: 1/1;
   border-radius: 1rem;
-  border: var(--cta-background) solid 2px;
+  border: var(--cta-background) solid 4px;
 }
 
 #info ul li {
@@ -133,8 +155,36 @@ footer {
 
 #info ul {
   display: flex;
-  justify-content: space-between;
-  max-width: 60%;
+  justify-content: center;
   margin: 0 auto;
   padding-bottom: 8rem;
+  gap: 4rem;
+}
+
+#cta {
+  padding: 6rem 0;
+}
+
+#cta-block {
+  padding: 3rem 0;
+  width: 64rem;
+  margin: 0 auto;
+  background-color: var(--cta-background);
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: .5rem;
+}
+
+#cta-block p {
+  color: #e5e7eb;
+}
+
+button {
+  background-color: var(--cta-background);
+  color: #f9faf8;
+  padding: 0.5rem 2rem;
+  font-size: 18px;
+  border-radius: .5rem;
+  border: #f9faf8 solid;
 }
